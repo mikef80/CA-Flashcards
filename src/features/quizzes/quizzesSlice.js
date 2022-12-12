@@ -12,7 +12,7 @@ const quizzesSlice = createSlice({
         id,
         name,
         topicId,
-        cardIds: []
+        cardIds
       };
     }
   }
