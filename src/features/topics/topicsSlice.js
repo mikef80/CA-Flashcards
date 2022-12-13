@@ -17,7 +17,7 @@ const topicsSlice = createSlice({
     },
     addQuizIdForTopic: (state, action) => {
       const { quizId, topicId } = action.payload;
-      state.topics[topicId].quizIds.push(quizId);
+      state.topics[topicId].quizIds.push(quizId); //Uncaught TypeError: Cannot read properties of undefined (reading 'quizIds')
     }
   }
 });
